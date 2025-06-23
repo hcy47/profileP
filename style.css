@@ -1,0 +1,27 @@
+a{
+  text-decoration: none;
+  margin-left: 18vw;
+}
+header{
+  margin: auto;
+  margin:2vw 5vw;
+}
+ nav{
+  padding: 1vh;
+  background: linear-gradient(rgb(235, 235, 170),white, rgb(205, 203, 203), white, rgb(235, 235, 170));
+ }
+ h1{
+  margin-left: 45%;
+ }
+ p{
+  margin: auto;
+  width: 60%;
+  color: rgb(11, 64, 239);
+ }
+
+ img{
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+ }
+  

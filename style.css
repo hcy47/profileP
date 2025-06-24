@@ -6,6 +6,17 @@ header{
   margin: auto;
   margin:2vw 5vw;
 }
+ h3{
+  margin: auto;
+  width: 10vw;
+  margin-top: 2vh;
+ }
+ ul{
+  margin: auto;
+  width: 11vw;
+  margin-top: 2vh;
+ }
+
  nav{
   padding: 1vh;
   background: linear-gradient(rgb(235, 235, 170),white, rgb(205, 203, 203), white, rgb(235, 235, 170));

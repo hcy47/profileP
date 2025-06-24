@@ -49,3 +49,9 @@ header{
   text-align: center;
   margin: 3vh;
  }
+
+ /* pseudo practices  */
+ #welcomeP:focus{
+  background-color: yellow;
+  border-radius: 5px;
+ }

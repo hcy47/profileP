@@ -9,9 +9,10 @@
 <body>
   <header>
     <nav>
-      <a href="">Welcome Page</a>
-      <a href="">Sign-Up</a>
-      <a href="">Contact</a>
+      <!-- nav bar  -->
+      <a href="#Welcome Page">Welcome Page</a>
+      <a href="#sign-Up.html">Sign-Up</a>
+      <a href="#contact">Contact</a>
       <hr>
     </nav>
 
@@ -23,13 +24,66 @@
       <p>The Oceanside Sunset Market is a weekly street fair held in downtown Oceanside, California, every Thursday evening. It's a popular event that combines elements of a farmers market, street fair, and family-friendly entertainment venue, attracting both locals and visitors. The market features a wide array of international food vendors, live music, and unique shopping opportunities. </p>
     </div>
     <div>
-      <img src="/assets/Screenshot 2025-06-20 at 23.18.58.png" alt=" another pic" width="900" height="400">
+      <img src="/assets/Screenshot 2025-06-20 at 23.18.58.png" alt=" another pic" width="900" height="500">
       
     </div>
+    <br>
+     <!-- embed a map of the place -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.681086847843!2d-117.38362492378627!3d33.196236373491416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc6e3717a4e26b%3A0xce8c81956f9c8c14!2sOceanside%20Sunset%20Market!5e0!3m2!1sen!2sus!4v1750716367600!5m2!1sen!2sus" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
   </main>
-  <section>
+  <section id="sign-Up">
+    <!-- sign up form  -->
+    <form action="">
+      <fieldset>
+        <legend id="leg">Sign-Up Form</legend>
+        <div class="form-group">
+          <!-- text type -->
+          <input type="text" name="username" id="username" placeholder="username">
+        <br>
+        </div>
+        <div class="form-group">
+          <!-- password type  -->
+          <input type="password" name="password" id="password" placeholder="Password">
+          <br>
+        </div>
+        <div class="form-group">
+          <input type="number" name="number" id="number" placeholder="Phone Number">
+          <br>
+        </div>
+        <div class="form-group">
+          <input type="text" name="text" id="text" placeholder=" what city?">
+        </div>
+        
+        
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Textarea"></textarea>
+        </div>
+
+        <fieldset>
+          <legend id="leg">Is this your first time?</legend>
+          <input class="form-group"  type="radio">
+          <label class="form-group" for="1st time" id="first time"name="1st time" value="1st time" >1st time</label>
+          <input class="form-group"  type="radio">
+          <label class="form-group" for="2nd time" id="second time"name="second time" value="second time" >2nd time</label>
+          <input class="form-group"  type="radio">
+          <label class="form-group" for="I am obsessed!" id="I am obsessed!"name="I am obsessed!" value="I am obsessed!" >I am obsessed!</label>
+        </fieldset>
+        <!-- radio type  -->
+        <!-- <input type="radio" id="beginner">
+        <label for="1st time">1st time</label> -->
+        <!-- button type  -->
+         <br>
+        <button class="form-group" type="submit">Submit</button>
+        <button class="form-group" type="reset">Reset</button>
+      </fieldset>
+    </form>
     
   </section>
+  
   <footer>
     <hr>
   </footer>

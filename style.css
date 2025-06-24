@@ -25,3 +25,27 @@ header{
   margin-top: 2vh;
  }
   
+ iframe{
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+ }
+ section{
+  position:relative;
+  display: block;
+  margin: auto;
+  background-image:linear-gradient(rgb(246, 169, 26), rgb(225, 225, 18), rgb(253, 182, 194), rgb(197, 112, 197));
+ }
+ #sign-Up{
+ 
+  max-width: 44%;
+  border-radius: 8px;
+ }
+
+ #leg{
+  margin: auto;
+ }
+ .form-group{
+  text-align: center;
+  margin: 3vh;
+ }

@@ -51,7 +51,24 @@ header{
  }
 
  /* pseudo practices  */
- #welcomeP:focus{
+
+ #welcomeP:hover{
   background-color: yellow;
+ }
+ #signUpTag:hover{
+  background-color: yellow;
+ }
+ #contact:hover{
+  background-color: yellow;
+ }
+
+  #welcomeP:focus {
+  background-color: green;
   border-radius: 5px;
+ }
+  #signUpTag:focus{
+  background-color: green;
+ }
+ #contact:focus{
+  background-color: green;
  }

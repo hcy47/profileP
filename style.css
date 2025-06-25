@@ -8,13 +8,20 @@ header{
 }
  h3{
   margin: auto;
-  width: 10vw;
+  width: 14vw;
   margin-top: 2vh;
  }
  ul{
   margin: auto;
-  width: 11vw;
+  width: 14vw;
   margin-top: 2vh;
+ }
+ .eventF{
+  background-color: lightpink;
+  width: 20vw;
+  height: 20vh;
+  margin: auto;
+  border-radius: 10px;
  }
 
  nav{

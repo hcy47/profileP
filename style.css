@@ -17,9 +17,10 @@ header{
   margin-top: 2vh;
  }
   .eventF{
+    display: block;
   background-color: lightpink;
-  width: 20vw;
-  height: 20vh;
+  width: 30vw;
+  height: 30vh;
   margin: auto;
   border-radius: 10px;
  }

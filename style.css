@@ -54,10 +54,23 @@ header{
   margin: auto;
   background-image:linear-gradient(rgb(246, 169, 26), rgb(225, 225, 18), rgb(253, 182, 194), rgb(197, 112, 197));
  }
+ .ticket{
+  display: flex;
+  margin: auto;
+  width: 13vw;
+ }
+ .group{
+  display: block;
+  margin: auto;
+ }
  #sign-Up{
  
-  max-width: 44%;
+  max-width: 30%;
   border-radius: 8px;
+ }
+ .form-group{
+  display:block;
+  justify-content: space-evenly;
  }
 
  #leg{

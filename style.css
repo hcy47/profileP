@@ -16,6 +16,34 @@ header{
   width: 14vw;
   margin-top: 2vh;
  }
+  .eventF{
+  background-color: lightpink;
+  width: 20vw;
+  height: 20vh;
+  margin: auto;
+  border-radius: 10px;
+ }
+  .form-group{
+Display:block;
+  text-align: center;
+  margin: 3vh;
+ }
+ #sign-Up{
+ 
+  max-width: 30%;
+  border-radius: 8px;
+ }
+ .ticket{
+  display: flex;
+  margin: auto;
+  width: 13vw;
+ }
+ .group{
+  display: block;
+  margin: auto;
+ }
+
+ 
 
  nav{
   padding: 1vh;

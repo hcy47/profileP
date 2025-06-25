@@ -1,21 +1,46 @@
 a{
   text-decoration: none;
-  margin-left: 18vw;
+  color:blue;
 }
+/* navbar styles */
+ .navBar{
+  display:flex;
+  justify-content: space-evenly;
+  color: red;
+ }
+/* header styles */
 header{
   margin: auto;
   margin:2vw 5vw;
 }
+ nav{
+  background: linear-gradient(rgb(235, 235, 170),white, rgb(205, 203, 203), white, rgb(235, 235, 170));
+ }
+
+ /* pseudo practices  */
+
+ #welcomeP:hover{
+  background-color: yellow;
+ }
+ #signUpTag:hover{
+  background-color: yellow;
+ }
+ #contactTag:hover{
+  background-color: yellow;
+ }
+ 
+
+ #contactTag:focus {
+  background-color: green;
+ }
+
+
  h3{
   margin: auto;
   width: 14vw;
   margin-top: 2vh;
  }
- ul{
-  margin: auto;
-  width: 14vw;
-  margin-top: 2vh;
- }
+ 
   .eventF{
   background-color: lightpink;
   width: 20vw;
@@ -24,11 +49,12 @@ header{
   border-radius: 10px;
  }
   .form-group{
-Display:block;
+  Display:block;
   text-align: center;
   margin: 3vh;
  }
- #sign-Up{
+ /* signup section  */
+ #sign-up{
  
   max-width: 30%;
   border-radius: 8px;
@@ -43,14 +69,10 @@ Display:block;
   margin: auto;
  }
 
- 
-
- nav{
-  padding: 1vh;
-  background: linear-gradient(rgb(235, 235, 170),white, rgb(205, 203, 203), white, rgb(235, 235, 170));
- }
+ /* h1  */
  h1{
-  margin-left: 45%;
+  display: flex;
+  justify-content: center;
  }
  p{
   margin: auto;
@@ -64,17 +86,8 @@ Display:block;
   margin-top: 2vh;
  }
   
- iframe{
-  display: block;
-  margin: auto;
-  margin-top: 2vh;
- }
- section{
-  position:relative;
-  display: block;
-  margin: auto;
-  background-image:linear-gradient(rgb(246, 169, 26), rgb(225, 225, 18), rgb(253, 182, 194), rgb(197, 112, 197));
- }
+
+ 
  .ticket{
   display: flex;
   margin: auto;
@@ -84,8 +97,8 @@ Display:block;
   display: block;
   margin: auto;
  }
+
  #sign-Up{
- 
   max-width: 30%;
   border-radius: 8px;
  }
@@ -94,29 +107,18 @@ Display:block;
   text-align: center;
   margin: 3vh;
  }
+
   #leg{
   margin: auto;
  }
-
- /* pseudo practices  */
-
- #welcomeP:hover{
-  background-color: yellow;
+section{
+  position:relative;
+  display: block;
+  margin: auto;
+  background-image:linear-gradient(rgb(246, 169, 26), rgb(225, 225, 18), rgb(253, 182, 194), rgb(197, 112, 197));
  }
- #signUpTag:hover{
-  background-color: yellow;
- }
- #contact:hover{
-  background-color: yellow;
- }
-
-  #welcomeP:focus {
-  background-color: green;
-  border-radius: 5px;
- }
-  #signUpTag:focus{
-  background-color: green;
- }
- #contact:focus{
-  background-color: green;
+  iframe{
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
  }

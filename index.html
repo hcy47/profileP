@@ -38,9 +38,6 @@
       <img src="/assets/unnamed.webp" alt=" another pic" width="900" height="500">
     </div>
     <br>
-     <!-- embed a map of the place -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.681086847843!2d-117.38362492378627!3d33.196236373491416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc6e3717a4e26b%3A0xce8c81956f9c8c14!2sOceanside%20Sunset%20Market!5e0!3m2!1sen!2sus!4v1750716367600!5m2!1sen!2sus" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <br>
   </main>
   <section id="sign-Up">
     <!-- sign up form  -->
@@ -71,25 +68,45 @@
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address" required>
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="(where are you joining us from)"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="special request or comments?"></textarea>
         </div>
-
-        <fieldset>
-          <legend id="leg">Is this your first time?</legend>
-          <input class="form-group"  type="radio">
-          <label class="form-group" for="1st time" id="first time"name="1st time" value="1st time" >1st time</label>
-          <input class="form-group"  type="radio">
-          <label class="form-group" for="2nd time" id="second time"name="second time" value="second time" >2nd time</label>
-          <input class="form-group"  type="radio">
-          <label class="form-group" for="I am obsessed!" id="I am obsessed!"name="I am obsessed!" value="I am obsessed!" >I am obsessed!</label>
+        <div class="form-group">
+          <form action=""></form>
+            <label for="question">How did you hear about us</label>
+            <br>
+            <select id="option" name="option" required>
+              <option value="">Select an option!</option>
+              <optgroup>
+              <option value="FB">Facebook</option>
+              <option value="IG">Instagram</option>
+              <option value="IN">LinkedIn</option>
+          </optgroup>
+          </select>
+        </div>
+        <fieldset class="ticket">
+          <legend id="leg">Ticket type?</legend>
+          <input class="formgroup"  type="radio">
+          <label class="formgroup" for="general" id="general"name="1general" value="general" >General</label>
+          <input class="formgroup"  type="radio">
+          <label class="formgroup" for="VIP" id="VIP"name="VIP" value="VIP" >VIP</label>
+          <input class="formgroup"  type="radio">
+          <label class="formgroup" for="Student" id="Student"name="Student" value="Student" >Student</label>
         </fieldset>
         <!-- radio type  -->
         <!-- <input type="radio" id="beginner">
         <label for="1st time">1st time</label> -->
         <!-- button type  -->
+         
          <br>
-        <button class="form-group" type="submit">Submit</button>
-        <button class="form-group" type="reset">Reset</button>
+        <label class="form-group" for="text">Submit to register for event</label>
+        <button class="group" type="submit">Submit</button>
+        <br>
+        <label class="form-group" for="text">Clear form</label>
+        <button class="group" type="reset">Reset</button>
+        <br>
+        <label class="form-group">
+          <input type="checkbox" name="subscribe" value="1" />Subscribe to our Newsletter.
+         </label>
       </fieldset>
     </form>
     
@@ -97,6 +114,9 @@
   
   <footer>
     <hr>
+    <p>Address:</p>
+      <!-- embed a map of the place -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.681086847843!2d-117.38362492378627!3d33.196236373491416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc6e3717a4e26b%3A0xce8c81956f9c8c14!2sOceanside%20Sunset%20Market!5e0!3m2!1sen!2sus!4v1750716367600!5m2!1sen!2sus" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </footer>
 </body>
 </html>

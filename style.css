@@ -16,6 +16,14 @@ header{
   width: 11vw;
   margin-top: 2vh;
  }
+  .eventF{
+  background-color: lightpink;
+  width: 20vw;
+  height: 20vh;
+  margin: auto;
+  border-radius: 10px;
+ }
+ 
 
  nav{
   padding: 1vh;
